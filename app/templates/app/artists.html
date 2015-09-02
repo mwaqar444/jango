@@ -1,0 +1,18 @@
+﻿{%extends "app/layout.html"%}
+{%block content%}
+    <h2> Artists </h2>
+    {% for artist in allArtists %}
+    <div class="row">
+        <div class="col-md-5">
+            <a href="/artists/{{artist.id}}">
+                {{ artist.name }}
+            </a>
+        </div>
+
+        <div class="col-md-1">
+            {{artist.year_Formed}}
+        </div>
+
+    </div>
+    {% endfor %}
+{%endblock%}
