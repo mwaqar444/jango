@@ -1,8 +1,0 @@
-RenameMethodsBase
-inspect
-warnings
-RemovedInDjango110Warning
-RemovedInNextVersionWarning
-warn_about_renamed_method
-RemovedInDjango20Warning
-RemovedInDjango19Warning
